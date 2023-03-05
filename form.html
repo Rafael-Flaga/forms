@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Forms</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <img src="casa.png" alt="ícone de casa" class="imagem">
+        <h1 class="titulo__principal">Fundação Matias Machline</h1>
+    </header>
+
+    <div id="formulario">
+        <section class="section">
+            <h1 class="titulo__secundario">Formulário de Inscrição</h1>
+        </section>
+
+        <form class="form">
+            <div class="espacamento">   
+                <label for="nome" class="display label">Nome Completo</label>
+                <input type="text"  id="nome" class="input" style="margin-left: 65px;" required name="nome"> 
+            </div>
+
+            <div class="espacamento">
+                <label for="email" class="display label">Endereço de E-mail</label>
+                <input type="email"  id="email" class="input" style="margin-left: 43px;" required placeholder="seuemail@dominio.com" name="email">
+            </div>
+
+            <div class="espacamento">
+                <label for="telefone" class="display label">Número de Telefone</label>
+                <input type="tel"  id="telefone" class="input" style="margin-left: 40px;" required placeholder="(XX) XXXXX-XXXX" name="telefone">
+            </div>
+
+            <div class="espacamento">
+                <label for="data_nascimento" class="display label">Data de Nascimento</label>
+                <input type="date"  id="data_nascimento" class="input" style="margin-left: 42px;" required name="data de nascimento">
+            </div>
+
+            <div class="espacamento">
+                <label for="curso" class="display label">Curso</label>
+                <input type="text"  id="curso" class="input" style="margin-left: 145px;" required name="curso">
+            </div>
+
+            <div class="espacamento">
+                <label for="matricula" class="display label">Número de Matrícula</label>
+                <input type="text"  id="matricula" class="input" style="margin-left: 36px;" required placeholder="XXXXXX" name="matricula">
+            </div>
+
+            <div class="espacamento">
+                <input type="submit" class="submit" value="Enviar">
+            </div>
+
+            <img src="estudante.png" alt="imagem de um estudante" class="imagem__estudante">
+        </form>
+    </div>
+</body>
+</html>
